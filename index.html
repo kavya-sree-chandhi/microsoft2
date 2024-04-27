@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Denton Plant Factory</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f8ff; /* Light blue background */
+            color: #333; /* Dark gray text color */
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #0074D9; /* Blue header background */
+            color: #fff; /* White text color */
+            padding: 20px;
+            text-align: center;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .product {
+            border: 1px solid #ddd;
+            padding: 20px;
+            margin-bottom: 20px;
+            background-color: #fff;
+        }
+        footer {
+            background-color: #0074D9;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+        .form-label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        .form-input {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ddd;
+        }
+        .form-button {
+            background-color: #0074D9;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Denton Plant Factory</h1>
+        <p>Your One-Stop Shop for Plants</p>
+        <button>About</button>
+    </header>
+    <div class="container">
+        <div class="product">
+            <img src="plant1.jpg" alt="Plant 1">
+            <h2>Monstera Deliciosa</h2>
+            <p>A beautiful tropical plant with large, glossy leaves. Origin: Central America.</p>
+        </div>
+        <div class="product">
+            <img src="plant2.jpg" alt="Plant 2">
+            <h2>Fiddle Leaf Fig</h2>
+            <p>A popular indoor plant known for its violin-shaped leaves. Origin: West Africa.</p>
+        </div>
+        <!-- Add more product sections here -->
+    </div>
+    <footer>
+        © 2023 Denton Plant Factory. All rights reserved.
+        <form>
+            <label for="full-name" class="form-label">Full Name</label>
+            <input type="text" id="full-name" class="form-input" placeholder="Full Name">
+            <label for="contact-number" class="form-label">Contact Number</label>
+            <input type="tel" id="contact-number" class="form-input" placeholder="Contact Number">
+            <label for="email" class="form-label">Email</label>
+            <input type="email" id="email" class="form-input" placeholder="Email">
+            <button type="submit" class="form-button">Submit</button>
+        </form>
+    </footer>
+</body>
+</html>
